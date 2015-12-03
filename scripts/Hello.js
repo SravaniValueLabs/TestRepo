@@ -4,3 +4,4 @@ write=nobody
 execute=authenticated 
   **/ 
  return "Hello";
+ Console.log("I'm good");
