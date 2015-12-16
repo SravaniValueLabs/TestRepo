@@ -3,9 +3,6 @@
 write=nobody
 execute=authenticated 
   **/ 
- 
- 
- 
  var twitter = require("twitter");
 var callbackUrl = "http://test.scriptr.io";
 
@@ -18,9 +15,9 @@ var credentials = {
 	"consumerSecret": "ESUrwOXn8actHJtymKn5cBd5P9cu7fmTrAk5Yq4dABxWED5Dpj"
 };
 
-var requestToken = "0IEwQAAAAAAAdpyhAAABTnN2lIs";
-var requestSecret = "zjFg4BJjjvIsvpFfAIr8gD8WcWFM1RfB";
+var requestToken = "d_nn4AAAAAAAdpyhAAABUal5sEA";
+var requestSecret = "DjXVQniB7DXK1q2XDoQyHKgOBRmh5h8D";
 
-var oAuthVerifier = "pUWIpG8HVg0AdmoUhbh13TrqfOD0Y5By";
+var oAuthVerifier = "ljUN6evx5HUj8l9lbT7q4DIZ9zVoxmN1";
 
-return twitter.getAccessToken(requestToken, requestSecret, oAuthVerifier, credentials); 				   				   				   				   							
+return twitter.getAccessToken(requestToken, requestSecret, oAuthVerifier, credentials); 				   				   				   				   										
